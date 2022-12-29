@@ -1,6 +1,6 @@
 export class RequestBase {
     RequestID!: number;
-    UserName: string='';
+    UserName!: string;
 }
 export class RequestStudentsCreditList {
     RequestID!: number;
