@@ -1,0 +1,18 @@
+.cus-body{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 20px;
+}
+
+.cus-fs{
+    font-size: 14px;font-family: sans-serif;
+}
+.pt10 {
+    padding-top: 10px !important;
+}
+.cus-cr{
+  color: red;
+}
+.cus-cb{
+  color: blue;
+}
