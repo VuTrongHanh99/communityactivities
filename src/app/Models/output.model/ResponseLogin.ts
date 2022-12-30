@@ -7,7 +7,7 @@ export class ResponseLogin extends ResponseBase{
     Roles:any;
 }
 export class UserInfo {
-    UserName!: string;
+    UserName: string='';
     UserID!: number;
     Email!: string;
     FullName!: string;

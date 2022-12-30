@@ -1,7 +1,7 @@
 import { RequestBase } from './RequestBase';
 
-export class RequestLogin extends RequestBase {
+export class RequestRegister extends RequestBase {
     override UserName!: string;
-    Password!: string;
+    Email!: string;
     UserCategory!: number;
 }

@@ -1,7 +1,7 @@
 <div class="limiter">
     <div class="container-login100">
         <div class="wrap-login100">
-            <form class="login100-form validate-form" style="padding-top: 70px !important;">
+            <form [formGroup]="loginForm" class="login100-form validate-form" style="padding-top: 70px !important;">
 
                 <img src="/assets/img/thienan.png" style=" display: block;
                 margin-left: auto;
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="container-login100-form-btn " style="margin-top: 30px;">
-                    <button class="login100-form-btn" style="height:45px;">
+                    <button class="login100-form-btn" (click)="logIn()" style="height:45px;">
                         Đăng nhập
                     </button>
                 </div>

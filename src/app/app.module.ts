@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './Components/main/footer/footer.component';
+import { HeaderComponent } from './Components/main/header/header.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

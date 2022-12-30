@@ -1,0 +1,10 @@
+{
+  "UtilsUrl": "http://118.70.120.226:800/UnisystemAPITeacher/",
+  "TeacherUrl": "https://localhost:44365/",
+  "PortalUrl": "https://localhost:44314/",
+  "SupportUrl": "http://thienan.vn/unisoft/support/GuiYeuCau.html",
+  "HrmUrl": "http://localhost:4201/#/",
+  "code_security": "401b09eab3c013d4ca54922bb802bec8fd5318192b0a75f201d8b3727429090fb337591abd3e44453b954555b7a0812e1081c39b740293f765eae731f5a65ed1234",
+  "HelpUrl": "http://thienan.vn/unisoft/help/Uniteacher/index.html",
+  "production": false
+}

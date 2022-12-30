@@ -1,0 +1,13 @@
+.content-wrapper {
+    min-height: calc(100vh - 114px);
+    height: 100%;
+  }
+  .cus-box{
+    border-radius: 20px;
+  }
+  .cus-fs{
+    font-size: 15px;
+    font-family: sans-serif;
+  background: #f4f6f9;
+  
+  }

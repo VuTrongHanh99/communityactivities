@@ -14,7 +14,7 @@ export class common {
     }
     constructor(private router: Router) {}
     public getUserinfo() {
-        this.LoginResult = JSON.parse(localStorage.getItem('UserInfo'));
+        this.LoginResult = JSON.parse(localStorage.getItem('UserInfo')|| '{}');
         return this.LoginResult;
     }
     login() {
